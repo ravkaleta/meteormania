@@ -1,0 +1,24 @@
+/* @font-face{
+    font-family: gameFont;
+    src: url(assets/Pixeled.ttf);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(31, 31, 31, 1.00);
+}
+
+#canvas {
+    border: 3px solid black;
+    box-shadow: 0px 2px rgb(87, 87, 87);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+img {
+    display: none;
+}
